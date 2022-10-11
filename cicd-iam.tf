@@ -55,10 +55,9 @@ resource "aws_iam_role" "tf-codebuild-role" {
   "Version": "2012-10-17",
   "Statement": [
     {
-      "Action": ["sts:AssumeRole","codebuild:BatchGetProjects"],
+      "Action": ["sts:AssumeRole"],
       "Principal": {
-        "Service": "codebuild.amazonaws.com"
-      },
+      "Service": "codebuild.amazonaws.com"},
       "Effect": "Allow",
       "Sid": ""
     }
