@@ -1,11 +1,11 @@
 terraform { 
     backend "s3" {
-        bucket = "cicd-test-tg"
+        bucket = "cicd-test-tg-1"
         encrypt = true
         key = "terraform.tfstate"
-        region = "eu-central-1"
-        access_key = "AKIA4KVHSAJUMWMHIBKZ"
-        secret_key = "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"
+        region = "ap-south-1"
+        access_key = "AKIASOGUKWUPRB2FL4DI"
+        secret_key = "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"
     }
 
 }
