@@ -1,2 +1,2 @@
-dockerhub_cred = "arn:aws:secretsmanager:us-east-1:678982119423:secret:dockerhub_cred-eNqZsz"
-codestar_cred = "arn:aws:codestar-connections:us-east-1:678982119423:connection/d22cedc1-6162-4f8f-9f13-27430e5febe6"
+dockerhub_cred = "arn:aws:secretsmanager:eu-central-1:167949022495:secret:dockerhub_cred-vp9kFL"
+codestar_cred = "arn:aws:codestar-connections:eu-central-1:167949022495:connection/6ba68cdc-6491-4b87-a23c-a3212800b6b3"
